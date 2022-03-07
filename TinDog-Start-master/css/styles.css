@@ -1,0 +1,151 @@
+body {
+  font-family: Montserrat;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fafafa;
+  padding-bottom: 1%;
+}
+
+.container-fluid {
+  padding: 3% 9% 13%;
+}
+
+.navbar-brand {
+  font-family: cursive;
+  font-size: 2.1rem;
+  font-weight: 900;
+}
+.navbar {
+  padding: 0 0 3.5rem;
+}
+.nav-item {
+  padding: 0 15px;
+  
+}
+
+/* Heading */
+.big-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Download-button */
+.Download-btn {
+  margin: 3% 5% 0 0;
+}
+.dog {
+  width: 20%;
+  position: absolute;
+ 
+}
+.dog {
+  transform: rotate(25deg);
+}
+
+/* 2 Page */
+h3 {
+  font-family: Montserrat-bold;
+  font-size: 1.5rem;
+}
+.middle{
+  text-align: center;
+  padding: 5%;
+}
+#features {
+ padding: 7% 10%;
+ background-color: whitesmoke;
+ position: relative;
+ 
+}
+.fas {
+  color: #ef8172;
+  margin-bottom: 1.1rem;
+}
+p{
+  color: #362222;
+  font-weight: bold;
+}
+.fas:hover{
+  color: #FF6363;
+}
+
+
+
+/* testimonial section , 2nd page */
+
+#testimonials{
+text-align: center;
+background-color: #ef8172 ;
+color: #fff;
+}
+h2{
+  font-family: Montserrat-bold;
+  line-height: 2;
+  font-size: 3rem;
+}
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  margin: 15px ;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 2%;
+}
+.press-ad{
+  width: 12%;
+  padding: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Pricing sectiom */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col{
+  padding: 2%;
+}
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+.dog{
+    position: static;
+    transform: rotate(0);
+    margin-top: 5%;
+  }
+
+}
+/* Call to Action Section */
+#cta{
+ background-color: #ff4c68;
+  text-align: center;
+  padding: 12% 5%;
+}
+.second-last{
+  font-size: 3.5rem;
+  line-height:1.5;
+  color:#fff;
+  font-family: Montserrat-black;
+}
+/* copyright */
+#footer{
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 4%  auto 2%;
+  background-color: #fff;
+  
+}
+.fa-envelope{
+  color: black;
+}
